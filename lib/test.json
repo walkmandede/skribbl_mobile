@@ -1,0 +1,13 @@
+{
+  "config" : {
+    "round" : 3,
+    "drawTimeInSec" : 100,
+    "wordCount" : 3,
+    "hint" : 2
+  },
+  "hostID" : "",
+  "currentPlayerId" : "",
+  "currentRound" : "",
+  "roomStatus" : "queue|ongoing|finished",
+  "roundEndDateTime" : "2023-02-02 12:45:24"
+}

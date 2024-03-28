@@ -1,0 +1,43 @@
+{
+  "bookingId" : "",
+  "teamData" : {
+
+  },
+  "teamFeedback" : {
+    "rating" : 5,
+    "feedback" : ""
+  },
+  "bookingStatus" : "Pending|Accepted|....",
+  "bookingType" : "BOOKING|SCHEDULED",
+  "scheduledBookingId" : "",
+  "serviceType" : "HOME|NUTJOBS",
+  "startDateTime" : "2023-03-16 15:00",
+  "endDateTime" : "2023-03-16 15:00",
+  "addressData" : {
+    "location" : "16.12626,96.1256 (Optional)",
+    "address" : ""
+  },
+  "customerData" : {
+
+  },
+  "subBookings" : [
+    {
+      "id" : "",
+      "vehicleData" : {},
+      "packageData" : {},
+      "toppingsData" : [],
+      "vifData" : "",
+      "beforeServiceData" : [
+
+      ],
+      "afterServiceData" : [
+
+      ],
+      "subTotal" : 250000
+    }
+  ],
+  "priceData" : {
+    "subTotal" : "",
+    "paidAmount" : 50000
+  }
+}

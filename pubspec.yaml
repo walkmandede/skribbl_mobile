@@ -1,0 +1,83 @@
+name: skribbl
+description: "Skribbl Mobile"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get:
+  shared_preferences:
+  flutter_native_splash:
+  google_fonts:
+  cached_network_image:
+  pinput:
+  flutter_statusbarcolor_ns:
+  rounded_loading_button:
+  flutter_tabler_icons:
+  intl:
+  screenshot: ^2.1.0
+  share_plus: ^7.2.1
+  path_provider:
+  shimmer: ^3.0.0
+  url_launcher:
+  flutter_svg: ^2.0.9
+  dio:
+  flutter_map:
+  latlong2:
+  geolocator: ^11.0.0
+  permission_handler: ^11.0.1
+  flutter_html: ^3.0.0-beta.2
+  table_calendar: ^3.1.0
+  image_picker: ^1.0.7
+  device_info_plus: ^10.0.1
+  socket_io_client:
+#  vector_map_tiles: ^6.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/images/
+    - assets/dummy_images/
+    - assets/media/
+    - assets/svgs/
+#    - shorebird.yaml
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/nunito/w500.ttf
+          weight: 500
+        - asset: assets/fonts/nunito/w600.ttf
+          weight: 600
+        - asset: assets/fonts/nunito/w700.ttf
+          weight: 700
+        - asset: assets/fonts/nunito/w800.ttf
+          weight: 800
+        - asset: assets/fonts/nunito/w900.ttf
+          weight: 900
+
+##dart run flutter_native_splash:create
+#flutter_native_splash:
+#
+#  #  color: "#ffffff"
+#  background_image: "assets/images/launch_screen.png"
+#  #  image: assets/images/logo.png
+#  android_12:

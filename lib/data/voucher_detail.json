@@ -1,0 +1,36 @@
+{
+  "id" : "",
+  "invoiceNumber" : "POC001",
+  "createdAt" : "2023-12-10 25:12:00",
+  "products" : [
+    {
+      "id" : "productId",
+      "qty" : 1,
+      "productName" : "",
+      "unitPrice" : 1000
+    }
+  ],
+  "discount" : {
+    "type" : "amount|percentage|code",
+    "input" : "2000",
+    "deductedAmount" : 2000,
+    "reason" : ""
+  },
+  "customSale" : {
+    "amount" : 2000,
+    "reason" : ""
+  },
+  "customerData" : {
+    "name" : "",
+    "phone" : "",
+    "email" : "",
+    "shippingAddress" : ""
+  },
+  "additionalNotes" : "",
+  "price" : {
+    "grossPrice" : 0,
+    "grandTotal" : 1000,
+    "discountAmount" : 1000,
+    "customSaleAmount" : 1000
+  }
+}
